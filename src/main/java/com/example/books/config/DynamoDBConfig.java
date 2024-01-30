@@ -14,7 +14,7 @@ import com.amazonaws.auth.AWSCredentialsProvider;
         import org.springframework.context.annotation.Configuration;
         import org.springframework.context.annotation.Primary;
 @Configuration
-@EnableDynamoDBRepositories(basePackages = {"com.example.books.repository"})
+// @EnableDynamoDBRepositories(basePackages = {"com.example.books.repository"})
 public class DynamoDBConfig {
     @Value("${aws.dynamodb.accessKey}")
     private String accessKey;
